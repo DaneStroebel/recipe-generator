@@ -1,3 +1,8 @@
 body {
-  background-color: turquoise;
+  background-color: rgb(220, 152, 175);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 20px;
+  color: rgb(50, 50, 50);
 }
