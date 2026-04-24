@@ -4,46 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Recipe Generator</title>
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
-    <main>
-   <form id="recipe-generator-form">
-     
-      <input type="text" placeholder="Enter the type of recipe you are looking for..."
-      class="instructions" 
-      required  
-    
-      autocomplete="off"/><br />
-      <input type="submit" class="submit-button"></button>
-    </form>
-    <div class="recipe" id="recipe">
-     
-    </div>
-    </main>
-    <footer>
-      <p>
-        This AI project was coded by
-        <a href="https://github.com/DaneStroebel" target="_blank"
-          >Dané Stroebel</a
-        >
-        and is open-sourced on
-        <a
-          href="https://github.com/DaneStroebel/recipe-generator"
-          target="_blank"
-        >
-          GitHub</a
-        >. and is hosted on
-        <a href="https://dane-ai-recipe-generator.netlify.app" target="_blank"
-          >Netlify</a
-        >.
-      </p>
-    </footer>
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form id="recipe-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the type of recipe you are looking for..."
+            class="instructions"
+            required
+            autocomplete="off"
+            id="user-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe" id="recipe"></div>
+      </main>
+      <footer>
+        <p>
+          This AI project was coded by
+          <a href="https://github.com/DaneStroebel" target="_blank"
+            >Dané Stroebel</a
+          >
+          and is open-sourced on
+          <a
+            href="https://github.com/DaneStroebel/recipe-generator"
+            target="_blank"
+          >
+            GitHub</a
+          >. and is hosted on
+          <a href="https://dane-ai-recipe-generator.netlify.app" target="_blank"
+            >Netlify</a
+          >.
+        </p>
+      </footer>
     </div>
 
     <script src="src/index.js"></script>
