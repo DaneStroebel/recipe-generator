@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Recipe Generator</title>
   </head>
@@ -12,7 +13,7 @@
       <h1>AI Recipe Generator</h1>
     </header>
     <main>
-   <form id="">
+   <form id="recipe-generator-form">
      
       <input type="text" placeholder="Enter the type of recipe you are looking for..."
       class="instructions" 
@@ -21,12 +22,8 @@
       autocomplete="off"/><br />
       <input type="submit" class="submit-button"></button>
     </form>
-    <div class="recipe">
-      Combine flour, sugar, baking powder, and salt in a bowl; make a well in the center of the flour mixture. Pour milk, egg, and 1 tablespoon oil into the well. Mix until well moistened.<br>
-
-Place a griddle over medium-high heat; sprinkle a few drops of water onto the griddle. If the droplets bounce, the griddle is ready; add 2 teaspoons oil.<br>
-
-Spoon batter onto the griddle; cook until bubbles form and the edges are dry, 3 to 5 minutes. Flip and cook until browned on the other side, 3 to 5 more minutes. Repeat with remaining batter.
+    <div class="recipe" id="recipe">
+     
     </div>
     </main>
     <footer>
