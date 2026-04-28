@@ -15,9 +15,6 @@ body {
 
 h1 {
   color: rgb(116, 24, 90);
-  font-weight: 800;
-  margin-bottom: 20px;
-  font-size: 34px;
   text-align: center;
 }
 
@@ -27,49 +24,28 @@ form {
   padding: 15px;
   background-color: rgba(219, 169, 186, 0.6);
   border-radius: 12px;
-  margin-bottom: 25px;
 }
 
 .instructions {
   flex: 1;
   padding: 14px;
-  font-size: 15px;
   border: 2px solid rgb(116, 24, 90);
   border-radius: 10px;
-  color: rgb(116, 24, 90);
-  background-color: #fff;
-  transition: 0.3s;
-}
-
-.instructions:focus {
-  outline: none;
-  border-color: rgb(180, 60, 140);
-  box-shadow: 0 0 0 3px rgba(180, 60, 140, 0.2);
 }
 
 .submit-button {
   padding: 14px 24px;
-  font-size: 15px;
   background-color: rgb(116, 24, 90);
   color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.submit-button:hover {
-  background-color: rgb(150, 40, 120);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 .recipe {
   margin-top: 20px;
-  font-size: 15px;
   padding: 20px;
   border-left: 5px solid rgb(116, 24, 90);
-  line-height: 1.6;
   background-color: rgba(219, 169, 186, 0.3);
   border-radius: 10px;
 }
@@ -77,28 +53,13 @@ form {
 .hidden {
   display: none;
 }
-footer {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 13px;
-  color: rgb(116, 24, 90);
-}
 
-footer a {
-  color: rgb(116, 24, 90);
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.2s;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
 @keyframes blink {
   50% {
     opacity: 0;
   }
 }
+
 .generating {
   animation: blink 2s step-start 0s infinite;
 }
