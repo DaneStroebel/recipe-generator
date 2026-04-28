@@ -74,6 +74,9 @@ form {
   border-radius: 10px;
 }
 
+.hidden {
+  display: none;
+}
 footer {
   margin-top: 30px;
   text-align: center;
@@ -90,4 +93,12 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.generating {
+  animation: blink 2s step-start 0s infinite;
 }
